@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
+import { BiSolidBriefcase } from "react-icons/bi";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(true);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
+    /*
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
@@ -13,6 +15,8 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+    */
+
   }, []);
 
   const navLinks = [
@@ -26,14 +30,18 @@ const Navbar = () => {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? "bg-white bg-opacity-80 backdrop-blur-sm shadow-md py-3"
+          ? "bg-white bg-opacity-80_ backdrop-blur-sm shadow-md py-3"
           : "bg-transparent py-5"
       }`}
     >
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="#home" className="text-xl font-bold text-primary">
-          Portfolio
-        </a>
+
+
+
+  
+        <a href="#home" className="text-xl font-bold text-primary flex items-center"> <BiSolidBriefcase/> <span className="px-2">Potafolio</span></a>
+
+
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex space-x-8">

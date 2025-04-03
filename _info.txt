@@ -1,0 +1,16 @@
+https://hslpicker.com/
+https://www.npmjs.com/package/react-tech-icons
+npm uninstall react-tech-icons
+https://react-icons.github.io/react-icons/
+
+#2e333d
+220 14% 21%
+
+
+
+
+
+<nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+	isScrolled
+        ? "bg-white bg-opacity-80_ backdrop-blur-sm shadow-md py-3"
+        : "bg-transparent py-5"}`}>

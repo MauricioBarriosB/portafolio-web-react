@@ -5,6 +5,16 @@
   text-align: center;
 }
 
+#root section:first-child  {
+   /* display:none !important;*/
+    padding-top:0px !important;
+  }
+
+  #root section:first-of-type{
+ /* border: 2px solid orange;*/
+ padding-top:0px !important;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -40,3 +50,4 @@
 .read-the-docs {
   color: #888;
 }
+

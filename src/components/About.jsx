@@ -21,7 +21,7 @@ const About = () => {
   const bioParagraphs = personal.fullBio.split("\n\n");
 
   return (
-    <section id="about" className="bg-white">
+    <section id="about" className="bg-muted">
       <div className="container mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Sobre Mí</h2>

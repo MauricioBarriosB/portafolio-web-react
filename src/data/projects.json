@@ -25,14 +25,5 @@
     "liveUrl": "https://weather-dashboard-app.netlify.app",
     "githubUrl": "https://github.com/janedoe/weather-dashboard",
     "tags": ["JavaScript", "OpenWeather API", "Chart.js"]
-  },
-  {
-    "id": 4,
-    "name": "Blog CMS",
-    "description": "Sistema de gestión de contenidos para blogs con editor WYSIWYG y gestión de usuarios.",
-    "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHx8MA%3D%3D",
-    "liveUrl": "https://blog-cms-demo.herokuapp.com",
-    "githubUrl": "https://github.com/janedoe/blog-cms",
-    "tags": ["React", "Express", "MongoDB", "JWT"]
   }
 ]

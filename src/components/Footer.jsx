@@ -1,17 +1,21 @@
 import React from "react";
+import { BiSolidBriefcase } from "react-icons/bi";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-primary text-white py-8">
+    <footer className="bg-green-600 text-white py-8">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-lg font-semibold">Portfolio</p>
+         
+              <a href="#home" className="text-xl font-bold text-white flex items-center"> <BiSolidBriefcase/> <span className="px-2">Potafolio</span></a>
+         
+         
           </div>
 
-          <div className="text-sm text-gray-300">
+          <div className="text-sm text-gray-300_">
             &copy; {currentYear} Todos los derechos reservados
           </div>
 
@@ -20,7 +24,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#home"
-                  className="hover:text-secondary transition-colors"
+                  className="hover:text-green-200 font-bold transition-colors"
                 >
                   Inicio
                 </a>
@@ -28,7 +32,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#about"
-                  className="hover:text-secondary transition-colors"
+                  className="hover:text-green-200 font-bold transition-colors"
                 >
                   Sobre Mí
                 </a>
@@ -36,7 +40,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#projects"
-                  className="hover:text-secondary transition-colors"
+                  className="hover:text-green-200 font-bold transition-colors"
                 >
                   Proyectos
                 </a>
@@ -44,7 +48,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#contact"
-                  className="hover:text-secondary transition-colors"
+                  className="hover:text-green-200 font-bold transition-colors"
                 >
                   Contacto
                 </a>

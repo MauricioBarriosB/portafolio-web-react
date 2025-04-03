@@ -11,7 +11,7 @@ const ProjectCard = ({ project }) => {
           className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />
       </div>
-      <div className="p-6">
+      <div className="p-6 bg-white">
         <h3 className="text-xl font-bold mb-2">{project.name}</h3>
         <p className="text-gray-600 mb-4">{project.description}</p>
 
@@ -82,12 +82,12 @@ const Projects = () => {
   }
 
   return (
-    <section id="projects" className="bg-muted">
+    <section id="projects" className="bg-muted_ bg-[#192234]">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold">Mis Proyectos</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white">Mis Proyectos</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mt-4 mb-6"></div>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-600_ max-w-2xl mx-auto text-white">
             Aquí hay una selección de proyectos en los que he trabajado. Cada
             uno demuestra diferentes habilidades y tecnologías.
           </p>
