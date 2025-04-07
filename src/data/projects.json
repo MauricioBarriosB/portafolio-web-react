@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Mantenedor de Tareas",
-    "description": "Para este aplicativo se han desarrollado funcionalidades como actualización de estado, categorización por prioridad (baja, media, alta), fecha, tipo de tarea, etc.",
+    "description": "Para este aplicativo se han desarrollado funcionalidades como actualización de estado, categorización por prioridad (baja, media, alta), fecha, tipo de tarea, entre otros.",
     "image": "img-task-app.jpg",
     "liveUrl": "https://mauriciobarriosb.github.io/portafolio-web-task-app/dist",
     "githubUrl": "https://github.com/MauricioBarriosB/portafolio-web-task-app",
@@ -20,10 +20,10 @@
   {
     "id": 3,
     "name": "LIV Hostpital",
-    "description": "Proyecto de finalización Curso Front End Adalid CORFO, desarrollo incluye búsqueda de pacientes, filtro doctores, adminitración de citas medicas, entre otros.",
+    "description": "Proyecto de finalización Curso Frontend Adalid CORFO, desarrollo incluye autenticación de usuarios, filtro doctores, adminitración de citas medicas, entre otros.",
     "image": "img-liv-hospital.jpg",
     "liveUrl": "https://mauriciobarriosb.github.io/portafolio-web-liv-hospital/dist/",
     "githubUrl": "https://github.com/MauricioBarriosB/portafolio-web-liv-hospital",
-    "tags": ["React JS", "TypeScript", "Bootstrap", "Axios", "API Rest", "SQLite3"]
+    "tags": ["React JS", "TypeScript", "Bootstrap", "Axios", "API Rest", "SQLite3", "JWT"]
   }
 ]

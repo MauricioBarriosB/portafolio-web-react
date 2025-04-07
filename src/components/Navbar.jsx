@@ -39,7 +39,7 @@ const Navbar = () => {
 
 
   
-        <a href="#home" className="text-xl font-bold text-primary flex items-center"> <BiSolidBriefcase/> <span className="px-2">Potafolio</span></a>
+        <a href="#home" className="text-xl font-bold text-primary flex items-center"> <BiSolidBriefcase/> <span className="px-2">Portafolio</span></a>
 
 
 

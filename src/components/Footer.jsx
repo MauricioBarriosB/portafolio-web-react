@@ -6,13 +6,13 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#4e9339] text-white py-8">
+    <footer className="bg-[#324467] text-white py-8">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
          
   
-                   <img className="w-[250px]" src={cenlinea} />
+                   <img className="w-[230px]" src={cenlinea} />
 
           </div>
 

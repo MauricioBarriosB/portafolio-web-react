@@ -6,7 +6,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandMysql } from "react-icons/tb";
-import { FaVuejs } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 import { FaBootstrap } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
 import { BiLogoTypescript } from "react-icons/bi";
@@ -55,9 +55,9 @@ const Hero = () => {
                             <RiJavascriptFill className="text-gray-400 text-4xl" />
                             <RiReactjsLine className="text-gray-400 text-4xl" />
                             <BiLogoTypescript className="text-gray-400 text-4xl" />
+                            <RiNextjsFill className="text-gray-400 text-4xl" />
                             <RiTailwindCssFill className="text-gray-400 text-4xl" />
                             <FaBootstrap className="text-gray-400 text-4xl" />
-                            <FaVuejs className="text-gray-400 text-4xl" />
                             <TbBrandMysql className="text-gray-400 text-4xl" />
                             <FaDocker className="text-gray-400 text-4xl" />
                         </div>
