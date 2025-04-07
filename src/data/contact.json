@@ -3,28 +3,28 @@
   "socialMedia": [
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/janedoe",
+      "url": "https://cl.linkedin.com/in/mauriciobarriosbernales",
       "icon": "linkedin"
     },
     {
       "name": "GitHub",
-      "url": "https://github.com/janedoe",
+      "url": "https://github.com/MauricioBarriosB",
       "icon": "github"
     },
     {
       "name": "WhatsApp",
-      "url": "https://twitter.com/janedoe",
+      "url": "https://wa.me/5693374219",
       "icon": "whatsapp"
     },
     {
       "name": "Email",
-      "url": "https://instagram.com/janedoe.dev",
+      "url": "mailto:mbarrios@capacitaenlinea.cl",
       "icon": "mail"
     }
     ,
     {
       "name": "Sitio Web",
-      "url": "https://instagram.com/janedoe.dev",
+      "url": "https://capacitaenlinea.cl/portafolioweb",
       "icon": "web"
     }
   ]
