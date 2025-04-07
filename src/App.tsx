@@ -6,6 +6,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
+// Agregar nombre de subcarpeta en la ruta producción:
+// <Route path="/portafolio-web-react/" element={<Index/>}/>
+// ./assets/cenlinea-BsORd4x7.png agregar punto producción
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -13,7 +17,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter >
         <Routes>
           <Route path="/" element={<Index />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

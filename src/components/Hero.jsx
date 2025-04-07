@@ -4,13 +4,12 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
-import { TbBrandNodejs } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandMysql } from "react-icons/tb";
-import { SiPhp } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { FaDocker } from "react-icons/fa";
-
+import { BiLogoTypescript } from "react-icons/bi";
 
 const Hero = () => {
     const [personal, setPersonal] = useState(null);
@@ -46,22 +45,22 @@ const Hero = () => {
                     </h2>
 
                     <p className=" text-white mb-6 text-2xl">
-                    {personal.shortBio}
+                        {personal.shortBio}
                     </p>
 
-                     <div class="flex items-center justify-center">
-                    <div class="grid grid-cols-5 md:grid-cols-10 content-between gap-12 pt-5 pb-12 ">
-                        <FaHtml5 className="text-white text-4xl"/>
-                        <FaCss3Alt className="text-white text-4xl"/>
-                        <RiJavascriptFill className="text-white text-4xl"/>
-                        <RiReactjsLine className="text-white text-4xl"/>
-                        <RiTailwindCssFill className="text-white text-4xl"/>
-                        <FaBootstrap className="text-white text-4xl"/>
-                        <TbBrandNodejs className="text-white text-4xl"/>
-                        <TbBrandMysql className="text-white text-4xl"/>
-                        <SiPhp className="text-white text-4xl"/>
-                        <FaDocker className="text-white text-4xl"/>
-                    </div>
+                    <div className="flex items-center justify-center">
+                        <div className="grid grid-cols-5 md:grid-cols-10 content-between gap-12 pt-5 pb-12 ">
+                            <FaHtml5 className="text-gray-400 text-4xl" />
+                            <FaCss3Alt className="text-gray-400 text-4xl" />
+                            <RiJavascriptFill className="text-gray-400 text-4xl" />
+                            <RiReactjsLine className="text-gray-400 text-4xl" />
+                            <BiLogoTypescript className="text-gray-400 text-4xl" />
+                            <RiTailwindCssFill className="text-gray-400 text-4xl" />
+                            <FaBootstrap className="text-gray-400 text-4xl" />
+                            <FaVuejs className="text-gray-400 text-4xl" />
+                            <TbBrandMysql className="text-gray-400 text-4xl" />
+                            <FaDocker className="text-gray-400 text-4xl" />
+                        </div>
                     </div>
 
 
@@ -79,19 +78,9 @@ const Hero = () => {
                     </div>
 
 
-
-
-
-
-
                 </div>
 
 
-
-
-
- 
-                
             </div>
         </section>
     );

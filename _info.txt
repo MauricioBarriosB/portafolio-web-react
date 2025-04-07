@@ -7,10 +7,14 @@ https://react-icons.github.io/react-icons/
 220 14% 21%
 
 
-
+npm install -g depcheck
 
 
 <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
 	isScrolled
         ? "bg-white bg-opacity-80_ backdrop-blur-sm shadow-md py-3"
         : "bg-transparent py-5"}`}>
+
+
+server responded with a status of 404 pwa entry point loaded 1 
+            

@@ -1,5 +1,5 @@
 {
-  "email": "jane.doe@example.com",
+  "email": "mbarrios@capacitaenlinea.cl",
   "socialMedia": [
     {
       "name": "LinkedIn",
@@ -12,14 +12,20 @@
       "icon": "github"
     },
     {
-      "name": "Twitter",
+      "name": "WhatsApp",
       "url": "https://twitter.com/janedoe",
-      "icon": "twitter"
+      "icon": "whatsapp"
     },
     {
-      "name": "Instagram",
+      "name": "Email",
       "url": "https://instagram.com/janedoe.dev",
-      "icon": "instagram"
+      "icon": "mail"
+    }
+    ,
+    {
+      "name": "Sitio Web",
+      "url": "https://instagram.com/janedoe.dev",
+      "icon": "web"
     }
   ]
 }

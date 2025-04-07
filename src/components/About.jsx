@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import personalData from "../data/personal.json";
+import { FaPlusCircle } from "react-icons/fa";
 
 const About = () => {
   const [personal, setPersonal] = useState(null);
@@ -48,19 +49,22 @@ const About = () => {
 
             <div className="mt-8 pt-6 border-t border-gray-200 grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-secondary font-bold">5+</div>
+
+
+                <div className="text-3xl text-secondary font-bold"> 10+</div>
                 <div className="text-gray-600">Años de Experiencia</div>
+
               </div>
               <div className="text-center glass-card p-4">
-                <div className="text-3xl text-secondary font-bold">30+</div>
-                <div className="text-gray-600">Proyectos Completados</div>
-              </div>
-              <div className="text-center glass-card p-4">
-                <div className="text-3xl text-secondary font-bold">15+</div>
-                <div className="text-gray-600">Tecnologías</div>
+                <div className="text-3xl text-secondary font-bold">20+</div>
+                <div className="text-gray-600">Proyectos Finalizados</div>
               </div>
               <div className="text-center glass-card p-4">
                 <div className="text-3xl text-secondary font-bold">10+</div>
+                <div className="text-gray-600">Tecnologías</div>
+              </div>
+              <div className="text-center glass-card p-4">
+                <div className="text-3xl text-secondary font-bold">15+</div>
                 <div className="text-gray-600">Clientes Satisfechos</div>
               </div>
             </div>

@@ -87,6 +87,8 @@ web_modules/
 .cache
 .parcel-cache
 
+_info.txt
+
 # Next.js build output
 .next
 out
