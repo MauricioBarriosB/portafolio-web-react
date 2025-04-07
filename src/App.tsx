@@ -7,8 +7,8 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 
 // Agregar nombre de subcarpeta en la ruta producción:
-// <Route path="/portafolio-web-react/" element={<Index/>}/>
-// ./assets/cenlinea-BsORd4x7.png agregar punto producción
+// <Route path="/portafolioweb/" element={<Index/>}/>
+// ./assets/cenlinea-BsORd4x7.png agregar a producción
 
 const queryClient = new QueryClient();
 
